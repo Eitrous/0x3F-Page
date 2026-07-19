@@ -19,12 +19,12 @@ const views = {
  ╚██████╔╝██╔╝ ██╗██████╔╝██║     
   ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚═╝     
               </pre> -->
-            <p class="subtitle">Eitrous's Personal Portal</p>
+            <p class="subtitle">Eitrous's Page</p>
           </div>
         </header>
 
         <main class="profile">
-          <div>
+          <div class="grid">
             <section>
               <h2>About</h2>
               <p>这是我的个人主页</p>
@@ -44,15 +44,15 @@ const views = {
             </section>
           </div>
 
-          <div>
-            <section>
+          <div class="grid">
+            <section >
               <h2>Profile</h2>
               <table class="profile-table">
                 <tr>
-                  <td>Name</td>
+                  <td>Username</td>
                   <td>
-                    <div>Eitrous \\</div>
-                    <div>GSTRenko \\</div>
+                    <div>Eitrous \</div>
+                    <div>GSTRenko \</div>
                     <div>汎用合成型宇佐見05</div>
                   </td>
                 </tr>
@@ -71,6 +71,7 @@ const views = {
               <h2>Links</h2>
               <div class="links">
                 <a class="link-button" href="https://blog.0x3f.io">Weblog</a>
+                <a class="link-button" href="https://filmory.0x3f.io">Filmory</a>
                 <a class="link-button" href="mailto:me@0x3f.io">Email</a>
                 <a class="link-button" href="https://github.com/Eitrous"
                   >GitHub</a
@@ -80,7 +81,7 @@ const views = {
           </div>
         </main>
         <footer>
-          <span>Last update: 2026-05-31</span>
+          <span>Last update: 2026-07-20</span>
           <svg class="barcode" id="barcode"></svg>
         </footer>
 `,
@@ -135,7 +136,7 @@ const views = {
     <details>
     <summary>PGP</summary>
     <div class="key-desc">
-    <p>Fingerprint: 6D42 1000 130F 7C51 E552 311D 47D3 C9F8 64B1 0009</p>
+    <p>Fingerprint: 0570 F4FE 8A67 C1FF 0C3B  4299 7DA8 D28C 21F8 42CB</p>
     <a href="https://key.0x3f.io/pgp" target="_blank" rel="noopener noreferrer">Download PGP Key</a>
     </div>
     </details>
