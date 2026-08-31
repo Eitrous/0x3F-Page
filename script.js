@@ -81,7 +81,7 @@ const views = {
           </div>
         </main>
         <footer>
-          <span>Last update: 2026-07-20</span>
+          <span>Last update: 2026-09-01</span>
           <svg class="barcode" id="barcode"></svg>
         </footer>
 `,
